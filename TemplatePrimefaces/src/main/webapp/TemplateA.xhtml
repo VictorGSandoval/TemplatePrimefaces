@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui" >
+    <h:head>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <link rel="shortcut icon" type="image/x-icon" href="pandora-layout/images/favicon.html" />
+        <link type="text/css" rel="stylesheet" href="#{request.contextPath}/faces/javax.faces.resources/theme.css" />
+        <link type="text/css" rel="stylesheet" href="#{request.contextPath}/faces/javax.faces.resources/fa/font-awesome.css" />
+        <link type="text/css" rel="stylesheet" href="#{request.contextPath}/faces/javax.faces.resources/components.css" />
+<!--        <script type="text/javascript" src="#{request.contextPath}/faces/javax.faces.resources/jquery/jquery.js"></script>-->
+        <script type="text/javascript" src="#{request.contextPath}/faces/javax.faces.resources/core.js"></script>
+        <script type="text/javascript" src="#{request.contextPath}/faces/javax.faces.resources/components.js"></script>
+        <script type="text/javascript" src="#{request.contextPath}/faces/javax.faces.resources/jquery/jquery-plugins.js"></script>
+        <script type="text/javascript" src="#{request.contextPath}/faces/javax.faces.resources/touch/touchswipe.js"></script>
+        <link type="text/css" rel="stylesheet" href="#{request.contextPath}/faces/javax.faces.resources/css/primeflex.css" />
+        <link type="text/css" rel="stylesheet" href="#{request.contextPath}/faces/javax.faces.resources/css/layout-teallight.css" />
+        <script type="text/javascript">if (window.PrimeFaces) {
+                PrimeFaces.settings.locale = 'en_US';
+            }</script>
+        <title>RECI</title>
+        <script type="text/javascript" src="#{request.contextPath}/faces/javax.faces.resources/js/layout.js"></script>
+        <script type="text/javascript" src="#{request.contextPath}/faces/javax.faces.resources/sections.js"></script>
+        <script type="text/javascript" src="#{request.contextPath}/faces/javax.faces.resources/js/contar.js"></script>
+
+    </h:head>
+
+    <!-- MENU -->
+
+    <h:body>
+        <h:form>
+
+        </h:form>
+
+        <div class="layout-wrapper layout-topbar-teallight layout-menu-light layout-slim-plus">
+
+            <div class="menu-wrapper">
+                <div class="layout-menu-container">
+                    <form id="menuform" name="menuform" method="post" action="https://www.primefaces.org/pandora/empty.xhtml" enctype="application/x-www-form-urlencoded">
+                        <input type="hidden" name="menuform" value="menuform" />
+                        <div class="layout-profile">
+                        </div><ul id="menuform:j_idt19" class="layout-menu">
+
+                            <li id="menuform:sb_homepage" role="menuitem" class="layout-root-menuitem" >
+                                <div><span class="layout-menuitem-text">ㅤㅤㅤㅤ</span></div>
+                                <a href="#{request.contextPath}/faces/vistas/marca/marcaT.xhtml"><i class="fa fa-fw fa-home fa-fw layout-menuitem-icon"></i>
+                                    <span class="layout-menuitem-text">ㅤㅤㅤㅤ</span>
+                                    <i class="fa fa-fw layout-submenu-toggler fa-angle-down"></i></a>
+                                <div class="layout-menu-tooltip">
+                                    <div class="layout-menu-tooltip-arrow"></div>
+                                    <div class="layout-menu-tooltip-text">ㅤㅤㅤ</div></div>
+                                <ul role="menu">
+
+
+                                    <li id="menuform:sb_dashboard" role="menuitem">
+                                        <a href="#{request.contextPath}/faces/index.xhtml">
+                                            <i class="fa fa-fw fa-dashboard fa-fw layout-menuitem-icon">
+                                            </i><span class="layout-menuitem-text">Inicio</span> </a>
+                                        <div class="layout-menu-tooltip">
+                                            <div class="layout-menu-tooltip-arrow">
+                                            </div><div class="layout-menu-tooltip-text">Inicio</div></div></li> 
+
+
+                                </ul></li>
+
+
+
+                            <li id="menuform:sb_components" role="menuitem" class="layout-root-menuitem">
+                                <div><span class="layout-menuitem-text">MENU</span></div>
+                                <a href="#{request.contextPath}/faces/vistas/area/areaT.xhtml"><i class="fa fa-fw fa-star fa-fw layout-menuitem-icon"></i>
+                                    <span class="layout-menuitem-text">MENU</span>
+                                    <i class="fa fa-fw layout-submenu-toggler fa-angle-down"></i></a>
+                                <div class="layout-menu-tooltip"><div class="layout-menu-tooltip-arrow"></div>                                    
+                                    <div class="layout-menu-tooltip-text">MENU</div></div>
+                                <ul role="menu">
+
+
+                                    <li id="menuform:sb_forms" role="menuitem">
+                                        <a href="#{request.contextPath}/faces/vistas/Persona_1.xhtml">
+                                            <i class="fa fa-fw fa-user fa-fw layout-menuitem-icon"></i>
+                                            <span class="layout-menuitem-text">Ciudadano</span>
+                                        </a><div class="layout-menu-tooltip">
+                                            <div class="layout-menu-tooltip-arrow">
+                                            </div><div class="layout-menu-tooltip-text">Ciudadano</div>
+                                        </div></li>
+
+
+                                    <li id="menuform:sb_data" role="menuitem">
+                                        <a href="#{request.contextPath}/faces/vistas/Acta_1.xhtml">
+                                            <i class="fa fa-fw fa-fax fa-fw layout-menuitem-icon"></i>
+                                            <span class="layout-menuitem-text">Acta</span></a>
+                                        <div class="layout-menu-tooltip">
+                                            <div class="layout-menu-tooltip-arrow">
+                                            </div><div class="layout-menu-tooltip-text">Acta</div></div></li>
+
+
+                                    <li id="menuform:sb_panels" role="menuitem">
+                                        <a href="#{request.contextPath}/faces/vistas/Expediente_1.xhtml">
+                                            <i class="fa fa-fw fa-inbox fa-fw layout-menuitem-icon"></i>
+                                            <span class="layout-menuitem-text">Expediente</span></a>
+                                        <div class="layout-menu-tooltip">
+                                            <div class="layout-menu-tooltip-arrow">
+                                            </div><div class="layout-menu-tooltip-text">Expediente</div></div></li>
+
+                                    <li id="menuform:sb_panels" role="menuitem">
+                                        <a href="#{request.contextPath}/faces/vistas/Reclamacion_1.xhtml">
+                                            <i class="fa fa-fw fa-list-alt fa-fw layout-menuitem-icon"></i>
+                                            <span class="layout-menuitem-text">Reclamos</span></a>
+                                        <div class="layout-menu-tooltip">
+                                            <div class="layout-menu-tooltip-arrow">
+                                            </div><div class="layout-menu-tooltip-text">Reclamos</div></div></li>
+
+                                    <li id="menuform:sb_panels" role="menuitem">
+                                        <a href="#{request.contextPath}/faces/vistas/Login_1.xhtml">
+                                            <i class="fa fa-fw fa-sign-in fa-fw layout-menuitem-icon"></i>
+                                            <span class="layout-menuitem-text">Login</span></a>
+                                        <div class="layout-menu-tooltip">
+                                            <div class="layout-menu-tooltip-arrow">
+                                            </div><div class="layout-menu-tooltip-text">Login</div></div></li>
+
+                                    <li id="menuform:sb_panels" role="menuitem">
+                                        <a target="_blanck" href="#{request.contextPath}/faces/vistas/ManualU.xhtml">
+                                            <i class="fa fa-fw fa-book fa-fw layout-menuitem-icon"></i>
+                                            <span class="layout-menuitem-text">Manual de Usuario</span></a>
+                                        <div class="layout-menu-tooltip">
+                                            <div class="layout-menu-tooltip-arrow">
+                                            </div><div class="layout-menu-tooltip-text">Manual de Usuario</div></div></li> 
+
+                                </ul>
+
+
+                            </li>
+
+
+
+
+
+
+
+
+                            <li id="menuform:sb_doc" role="menuitem">
+                                <div class="layout-menu-tooltip">
+                                </div></li></ul><script id="menuform:j_idt19_s" type="text/javascript">$(function () {
+                PrimeFaces.cw("Pandora", "PandoraMenuWidget", {id: "menuform:j_idt19"});
+            });</script><input type="hidden" name="javax.faces.ViewState" id="j_id1:javax.faces.ViewState:0" value="-3929107164149135529:-3842838999998900149" autocomplete="off" />
+                    </form>
+                </div> 
+            </div> 
+
+
+
+
+
+            <!-- CABECERA -->        
+
+
+            <div class="layout-main">
+                <div class="layout-topbar">
+                    <div class="layout-topbar-wrapper">
+                        <div class="layout-topbar-left">
+                            <div class="menu-button">
+                                <i class="fa fa-bars"></i>
+                            </div><a id="logolink" name="logolink"  class="layout-topbar-logo">
+                                <img id="j_idt23" src="#{request.contextPath}/faces/resources/images/logo-pandora.svg" alt="" />
+
+                               
+                                <h1 style="color: #fff">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤMunicipalidad Distrital de Imperial</h1>
+
+                            </a>
+
+
+                        </div>
+
+                        <div class="layout-topbar-right">
+                            <div>
+                                <img id="j_idt31" src="https://cdn.icon-icons.com/icons2/1154/PNG/512/1486564400-account_81513.png" width="30" height="30" />
+                                <div class="layout-topbar-right">
+<!--                                    <p:outputLabel style="color: #fff"  >
+                                        <p:outputLabel style="color: #fff" value="#{loginC.usuario}" />
+                                    </p:outputLabel>-->
+
+                                </div>         
+                            </div>
+                            <h:form id="ACTLog">
+
+                                <p:commandButton value="SALIR"  />
+<!--                                <p:commandButton value="SALIR" action="#{loginC.cerrarSesion()}" />-->
+                            </h:form>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+                <!-- CONTENIDO -->            
+                <div class="layout-content">
+                    <div class="ui-g">
+                        <div class="ui-g-12">
+                            <!--                            <ui:insert name="contenido"/> -->
+                            <h1>Hello World By G. Sandoval</h1>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="layout-mask"></div>
+            </div><div id="j_idt143" style="width:32px;height:32px;position:fixed;right:7px;bottom:7px"><div id="j_idt143_start" style="display:none">
+                    <i class="fa fa-circle-o-notch fa-spin ajax-loader" aria-hidden="true"></i></div><div id="j_idt143_complete" style="display:none"></div></div><script id="j_idt143_s" type="text/javascript">$(function () {
+                            PrimeFaces.cw("AjaxStatus", "widget_j_idt143", {id: "j_idt143", delay: 0});
+                        });</script>
+        </div>
+    </h:body>
+</html>
